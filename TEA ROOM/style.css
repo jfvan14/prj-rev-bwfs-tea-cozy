@@ -1,0 +1,135 @@
+body {
+  margin:0;
+  background-color: black;
+}
+
+        /**== header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  height: 69px;
+  font-size: 22px;
+  font-family: helvetica;
+  color: seashell;
+  opacity:0.9;
+  border-bottom: 1px solid seashell;
+}
+.logo {
+  margin-left: 10px;
+  height: 50px;
+}
+nav {
+  margin-right: 10px;
+}
+nav span {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+      /*== TOP SECTION*/
+
+#slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+#featured {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 50px auto;
+}
+#location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("img/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+
+.prodgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+}
+
+.prod img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.prod h4 {
+  font-family: helvetica;
+  color: seashell;
+  opacity:0.9;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+}
+#location .title {
+  background-color: transparent;
+}
+.title {
+    background-color: black;
+    font-family: helvetica;
+    color: seashell;
+    opacity:0.9;
+    width: 100%;
+    text-align: center;
+}
+.title h2 {
+  font-size: 30px;
+}
+.adresses {
+  display: flex;
+  justify-content:center;
+}
+.adress {
+  width: 300px;
+  background-color: black;
+  font-family: helvetica;
+  color: seashell;
+  opacity:1;
+  text-align: center;
+  margin: 15px 20px 0px 20px;
+}
+.adress p {
+  margin: 30px 0;
+}
+
+/* == Contact */
+
+#contact {
+  height: 200px;
+  background-color: black;
+  font-size: 22px;
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+      /* == Footer */
+
+
+footer {
+  margin-left: 20px;
+  font-family: helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: left;
+}
